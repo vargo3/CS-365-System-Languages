@@ -1,0 +1,4 @@
+Hierarchy: maybe
+GraphicalObject: draw(), containsPt(), toString()
+	/	|			|	  |		|
+Line  	Rectangle  Text  Oval  Roundtangle

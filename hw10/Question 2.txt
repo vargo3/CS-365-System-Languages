@@ -1,0 +1,3 @@
+Time reporting method was sychronized because it would possible that a thread update some of the values the print the scoreboard before setting the rest of the variables.
+
+Finish reporting method was synchronized because the queue was implemented as a LinkedList which is not synchronized internally and it modifies the list structurally.

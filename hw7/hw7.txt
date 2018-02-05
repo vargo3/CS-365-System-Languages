@@ -1,0 +1,6 @@
+Question 1:
+A. text field
+B. check boxes
+C. slider
+D. menu/list
+E. slider

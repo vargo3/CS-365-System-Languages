@@ -1,0 +1,40 @@
+Question 1:
+	a) Exception
+	b) RuntimeException
+	c) Error
+	d) setjmp/longjmp
+
+Question 2:
+	a) catch (Throwable)
+	b) catch (...)
+
+Question 3: So that the Exception object is allocated off the stack rather than the heap. This would mean that the catcher would have to deallocate the object rather than letting the compiler take care of it.
+
+Question 4:
+	a) The problem is that the first catch is going to catch any exception and the following more specific catches will never be caught
+		try{
+			...
+		}
+		catch (MismatchedOperationError oe){
+			...
+		}
+		catch (InvlaidTokenError te){
+			...
+		}
+		catch (RecognitionError re){
+			...
+		}
+	b) The problem was that the error was being thrown but not being handle by anything
+		public void evalute() throw InvalidTokenError{
+			...
+			if (error condition){
+				throw new InvalidTokenError();
+			}
+			...
+		}
+
+Question 5:
+	Negative number at index 3
+	sum = 70
+	Negative number is -20
+	sum = 0

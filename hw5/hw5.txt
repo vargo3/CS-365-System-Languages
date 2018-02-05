@@ -1,0 +1,3 @@
+Jacob Vargo
+
+Question 2: downcasting is dangerous when the void * points to one type (say an integer) but then is dereferenced as another type (say an object). At best the output is nonsense, or will also likely cause a seg-fault.
